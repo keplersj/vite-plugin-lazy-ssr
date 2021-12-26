@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-lazy-ssr",
+  "version": "0.1.0",
+  "description": "Vite Plugin to lazilly produce Server-Side Rendered pages using Puppeteer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/vite-plugin-lazy-ssr.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "ssr",
+    "webcomponents",
+    "puppeteer",
+    "vite"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keplersj/vite-plugin-lazy-ssr/issues"
+  },
+  "homepage": "https://github.com/keplersj/vite-plugin-lazy-ssr#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "puppeteer": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.7"
+  }
+}
